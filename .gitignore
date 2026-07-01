@@ -1,0 +1,23 @@
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Environment
+.env
+.venv/
+venv/
+
+# Large data files (download from SEC, don't commit)
+data/filings/*.html
+data/filings/*.txt
+data/*.db
+data/filings/manifest.json
+
+# OS
+.DS_Store
+Thumbs.db
